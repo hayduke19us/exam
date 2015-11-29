@@ -1,0 +1,10 @@
+1. #instance_methods, #singleton_methods 
+
+2. Well C++ is a strong typed language so object compilation does not happen on
+   the fly. For instance, in Java and C++ A class is a class, an object is an
+   instance of a class. Javascript is like a fake OO language that shares the 
+   prototype with Object and relies on quasi inheritance. In ruby everything is
+   an object. A class is an object and instance is an object. These objects are
+   unique by id and are garbage collected at the end of their life cycle. 
+
+3. Test are passing for custom reader and writer
