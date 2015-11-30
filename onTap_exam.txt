@@ -8,3 +8,53 @@
    unique by id and are garbage collected at the end of their life cycle. 
 
 3. Test are passing for custom reader and writer
+
+4. Single responsibility, Open-close, Liskov subsititution(instances),Interface
+   Segregation, Dependency Inversion
+
+5. loosely coupled is the 'S' and 'O', in SOLID. Rely on abstractions not
+   concretions.
+
+6. It can be tested alone. 
+
+7. Composite patterns are nice with classical inheritance, but in general I feel
+   like if you can tell a story with history or state that needs to be carried
+   from parent to child use inheritance.
+
+8. Yes ruby has multiple inheritance which means Parent can inherit from Base
+   and Child can inherent from Base or Parent.
+
+9. Unit test are usually the business logic. Models if its MVC. While
+   Integration test is the users experience, and can be used for acceptance
+   testing. 
+
+10. One good example when to use a mock is for an API, or anything that requires
+    HTTP request. You don't want to make a request for every test.
+
+11. I run a test suite constantly. Whenever a block of code can be tested.
+
+12. A unit test should cover the functionality of simple process'. Like each
+    method of a class. While integration might cover the class' whole process.
+
+13. I like Benchmark/ips for code metrics because of its iteration style
+    benchmarking. But there are lots of metrics. I use New Relic for Application
+    metrics. Pivotal for team progression and Agile style goals.
+
+14. Refactoring can be simplifying a process of code, playing code golf, making
+    it more readable, making it faster, more maintainable. Making it better.
+
+15. Test allow you to look for bottle necks, over complexities, and of course
+    errors. 
+
+16. Before the debt is larger or more expensive then feature development.
+
+17. Rails is using Active Record as an ORM and is executing raw SQL. The same
+    can be done with Sequel or just raw console SQL.
+
+18. Model contains business logic, Controller contains and manages interactions
+    between view and model, and the View is the user interface.
+
+    Server ->  Controller -> Client
+
+19. Concerns for meant for modules. To add Abstract classes to the concrete
+    models and keep the models SOLID and DRY. 
